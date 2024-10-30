@@ -1,0 +1,71 @@
+.form_cc label {
+
+	display: inline-block;
+
+	width: 200px;
+
+	vertical-align: top;
+
+}
+
+.form_cc input[type=text], .form_wpbc textarea, .form_wpbc select {
+
+	width: 200px;
+
+}
+
+.form_cc .name_line {
+	position: relative;
+}
+
+.form_cc .loading {
+	display: none;
+}
+
+.form_cc .wp-picker-container {
+	display: inline-block;
+}
+
+.form_cc .icons_list_search {
+	background: #ddd;
+    left: 205px;
+    position: absolute;
+    top: 24px;
+    z-index: 120;
+    width: 200px;
+}
+
+.form_cc .icons_list_search ul {
+	padding: 0;
+	margin: 0;
+}
+
+.form_cc .icons_list_search ul li {
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.form_cc .icons_list_search ul li i {
+	margin-right: 5px;
+}
+
+.cc_icon {
+	border-radius: 100%;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	cursor: move;
+	display: inline-block;
+	vertical-align: top;
+	line-height: 44px;
+}
+
+.cc_icon i {
+	line-height: 34px;
+	font-size: 20px;
+}
+
+.cc_icon img {
+	max-width: 35px;
+	height: auto;
+}

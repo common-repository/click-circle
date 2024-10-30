@@ -1,0 +1,20 @@
+.click_circle {
+	position: relative;
+}
+
+.click_circle .circle  {
+	transition: all 0.1s linear;
+	cursor: pointer;
+	text-align: center;
+	z-index: 150;
+	box-sizing: content-box;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 50%;
+	box-shadow: none;
+	margin-right: 10px;
+}
+
+.click_circle .circle:hover {
+	transform: scale(1.2);
+}
